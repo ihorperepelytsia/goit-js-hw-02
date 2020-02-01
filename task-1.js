@@ -2,8 +2,7 @@
 
 const logItems = function(array) {
   for (let i = 0; i < array.length; i += 1) {
-    const text = `${i + 1} - ${array[i]}`;
-    console.log(text);
+    console.log(`${i + 1} - ${array[i]}`);
   }
 };
 
